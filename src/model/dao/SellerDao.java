@@ -14,6 +14,8 @@ public interface SellerDao {
 
 	Seller findById(Integer id);
 
+	void updateById(Seller seller);
+
 	List<Seller> findAll();
 
 	List<Seller> findByDepartment(Department department);
